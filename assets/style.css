@@ -1,0 +1,14 @@
+.whatsapp-chat-link {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 1000; /* Ensure this is high enough to be on top of other elements */
+    font-size: 30px; /* Adjust size as needed */
+    color: green; /* Icon color */
+}
+
+.whatsapp-chat-link i {
+    background: white; /* Background color for the icon */
+    border-radius: 50%; /* Circular shape */
+    padding: 10px; /* Padding around the icon */
+}
